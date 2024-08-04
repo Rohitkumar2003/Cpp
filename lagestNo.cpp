@@ -1,20 +1,23 @@
 #include<iostream>
+
 using namespace std;
-    int sumFunciton() {
-        int a;
-        cin>>a;
-
-        int b;
-        cin>>b;
-
-        int sumValue = a + b;
-        cout<<sumValue;
-    }
+  
 
 int main(int argc, char const *argv[]){
 
-    cout<<sumFunciton;
 
+// impliciet conversion 
+        // int x = 10 +'z';
+        // char c = 'a'+10;
+
+        // cout<<c+10 << endl;
+        // cout<<x<< endl;
+    
+    // Explicit COnversion 
+
+    int  f = (float)1.12;
+
+    cout<<f<< endl;
 
     return 0;
 }
